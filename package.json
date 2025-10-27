@@ -1,21 +1,15 @@
 {
   "name": "sales-reporting-system",
   "version": "1.0.0",
-  "description": "A modern sales reporting dashboard connected to Supabase and deployed on Vercel.",
-  "main": "index.js",
+  "description": "Telegram bot backend hosted on Vercel.",
+  "main": "api/webhook.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "vite preview"
+    "start": "node api/webhook.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.44.4",
-    "dotenv": "^16.4.5",
-    "axios": "^1.7.2"
+    "node-fetch": "^3.3.2"
   },
-  "devDependencies": {
-    "vite": "^5.3.1"
-  },
+  "type": "module",
   "author": "aharon310384-cyber",
   "license": "MIT"
 }
