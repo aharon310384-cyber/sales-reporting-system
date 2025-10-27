@@ -1,15 +1,12 @@
 {
   "name": "sales-reporting-system",
   "version": "1.0.0",
-  "description": "Telegram bot backend hosted on Vercel.",
   "main": "api/webhook.js",
+  "type": "module",
   "scripts": {
     "start": "node api/webhook.js"
   },
   "dependencies": {
     "node-fetch": "^3.3.2"
-  },
-  "type": "module",
-  "author": "aharon310384-cyber",
-  "license": "MIT"
+  }
 }
