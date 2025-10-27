@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@supabase/Bolt Database-js": "^2.39.0",
+    "@supabase/supabase-js": "^2.44.4",
     "@vercel/speed-insights": "^1.2.0",
     "chart.js": "^4.4.0",
     "react": "^18.2.0",
